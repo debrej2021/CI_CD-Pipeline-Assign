@@ -23,6 +23,8 @@ I created a job MyPythonProjectJob to have the pipeline trigerred from the Jenki
 I added a Webhook to trigger a new build when ever changes pushed to repo 
  I also configured the email to send out notifications . 
 
+ I had to also create a Python virtual environment and also allow inbound for ports 8080 and 5000 for the EC2 , I could have gone for any cloud jenkins provider but wanted to create something scratch
+
 
 **PLEASE NOTE - I AM NOT INCLUDING ANY PASSWORDS / USERIDS For safety , if required I can send through . right now uploading on Vlearn
 http://54.203.39.4:8080/
