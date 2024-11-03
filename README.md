@@ -25,6 +25,8 @@ I added a Webhook to trigger a new build when ever changes pushed to repo
 
  I had to also create a Python virtual environment and also allow inbound for ports 8080 and 5000 for the EC2 , I could have gone for any cloud jenkins provider but wanted to create something scratch
 
+ Instance ID of EC2 - i-0458096a3155b17f2
+
 
 **PLEASE NOTE - I AM NOT INCLUDING ANY PASSWORDS / USERIDS For safety , if required I can send through . right now uploading on Vlearn
 http://54.203.39.4:8080/
